@@ -1,0 +1,26 @@
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+header {
+  background-color: #ffd800;
+  padding: 10px;
+  display: flex; /* Используем flexbox для размещения элементов в строку */
+  justify-content: flex-start; /* Равномерно распределяем элементы */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+/* Стиль для ссылки на новости */
+header a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #ffd800;
+}
